@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "arom_2016_gem"
   spec.version       = Arom2016Gem::VERSION
   spec.authors       = ["a-rom"]
-  spec.email         = ["aaaaaa1623at@aiit.ac.jp"]
+  spec.email         = ["test1623at@aiit.ac.jp"]
 
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
