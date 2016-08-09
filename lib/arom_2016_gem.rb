@@ -1,12 +1,15 @@
-require "arom_2016_gem/version"
-module Arom2016Gem
-  class main
-    def bonusdrink(n)
-      if n % 3 == 0
-         return n + 1
-      else 
-         return n
-      end
-    end
-  end
+#require "arom_2016_gem/version"
+#module Arom2016Gem
+def bonusdrink(n)
+  t = n + n / 3
+    return t
 end
+
+n = ARGV[0].to_i
+
+puts bonusdrink(n)
+#end
+
+
+
+
