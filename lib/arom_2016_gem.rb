@@ -1,12 +1,12 @@
 require "arom_2016_gem/version"
-
 module Arom2016Gem
   class main
-    def odd?(n)
-      if(n%2)!=0
-        return true
-      else
-        return false
+    def bonusdrink(n)
+      if n % 3 == 0
+         return n + 1
+      else 
+         return n
       end
     end
+  end
 end
