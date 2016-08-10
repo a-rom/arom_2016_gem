@@ -1,15 +1,12 @@
-#require "arom_2016_gem/version"
-#module Arom2016Gem
+require "arom_2016_gem/version"
+class Main
 def bonusdrink(n)
   t = n + n / 3
-    return t
+  return t
 end
 
 n = ARGV[0].to_i
 
-puts bonusdrink(n)
-#end
-
-
-
-
+main = Main.new
+main.bonusdrink(n)
+end
